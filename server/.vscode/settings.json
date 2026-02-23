@@ -1,0 +1,11 @@
+{
+    // Show hidden files and disable excludes that may hide the project
+    "files.exclude": {
+        "**/.git": false,
+        "**/.DS_Store": false,
+        "**/.history": false
+    },
+    "search.exclude": {
+        "**/.history": false
+    }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "react-tailwind-css-starter-pack",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ramonak/react-progress-bar": "^5.4.0",
+    "@reduxjs/toolkit": "^2.11.2",
+    "axios": "^1.13.3",
+    "chart.js": "^4.5.1",
+    "concurrently": "^9.2.1",
+    "copy-to-clipboard": "^3.3.3",
+    "lucide-react": "^0.563.0",
+    "openai": "^6.16.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^15.0.0",
+    "react-hook-form": "^7.71.1",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-markdown": "^10.1.0",
+    "react-otp-input": "^3.1.1",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.11.0",
+    "react-scripts": "5.0.1",
+    "react-star-ratings": "^2.3.0",
+    "react-stars": "^2.2.5",
+    "react-super-responsive-table": "^6.0.2",
+    "react-syntax-highlighter": "^16.1.0",
+    "react-type-animation": "^3.2.0",
+    "redux-toolkit": "^1.1.2",
+    "swiper": "^12.1.1",
+    "video-react": "^0.16.0",
+    "web-vitals": "^2.1.4"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/surajkmr2025/StudyNotion.git"
+  },
+  "author": "Suraj Kumar",
+  "bugs": {
+    "url": "https://github.com/surajkmr2025/StudyNotion/issues"
+  },
+  "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
